@@ -21,6 +21,7 @@ html {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .dp {
@@ -32,17 +33,9 @@ a {
   height: 55.4px;
 }
 
-.main_banner {
-  width: 100%;
+.size_main_banner {
+  width: 1477px;
   height: 756.96px;
-  animation: main_banner linear 10s infinite;
-}
-
-@keyframes main_banner {
-  0% {background: url(./image/coffee_lovers.webp); background-size: 100% 756.96px;}
-  33% {background: url(./image/main_banner_wintercollection.webp); background-size: 100% 756.96px;}
-  66% {background: url(./image/main_banner_fallcollection.webp); background-size: 100% 756.96px;}
-  100% {background: url(./image/main_banner_couplecollection.webp); background-size: 100% 756.96px;}
 }
 
 .banner_first {
@@ -83,13 +76,109 @@ a {
 
 .product_image_container {
   padding: 80px 50px;
-  gap: 30px;
+  gap: 5px;
+  justify-content: space-between;
 }
 
 .size_product_image {
   width: 325px;
   height: 487.5px;
+}
+
+.product_wrap_image {
+  position: relative;
+  overflow: hidden;
   border-radius: 10px;
+}
+
+.product_image:hover {
+  transform: scale(2.5);
+  position: relative;
+  top: 300px;
+  left: 0;
+  cursor: pointer;
+}
+
+.fm_product {
+  position: relative;
+  flex-direction: column;
+  max-width: 325px;
+}
+
+.fm_icon_product_a {
+  position: absolute;
+  z-index: 1;
+  width: 87.75px;
+  height: 50.23px;
+  top: 5px;
+  left: 5px;
+}
+
+.fm_icon_product_b {
+  position: absolute;
+  z-index: 1;
+  width: 81.25px;
+  height: 201.46px;
+  top: 5px;
+  right: 5px;
+}
+
+.fm_icon_product_c {
+  position: absolute;
+  z-index: 1;
+  width: 325px;
+  height: 44.69px;
+  bottom: 0;
+}
+
+.product_details {
+  font-size: 15px;
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.product_details a:hover {
+  text-decoration: underline;
+}
+
+.product_details i {
+  font-size: 25px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+/* .see_more_btn {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px 40px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  width: fit-content;
+  margin: auto;
+} */
+
+.see_more_btn a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.see_more_btn {
+  text-align: center;
+}
+
+.see_more_btn a {
+  border-radius: 10px;
+  border: 1.5px solid black;
+  padding: 10px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .1rem;
 }
 
 .fashion_container {
@@ -117,4 +206,12 @@ a {
   border-radius: 10px;
   bottom: 20px;
   left: 280px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer_logo {
+  width: ;
 }
