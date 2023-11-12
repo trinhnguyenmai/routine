@@ -34,7 +34,7 @@ a {
 }
 
 .size_main_banner {
-  width: 1477px;
+  width: 100%;
   height: 756.96px;
 }
 
@@ -210,8 +210,165 @@ a {
 
 .footer {
   background-color: #f8f8f8;
+  padding: 50px 50px 50px 50px;
 }
 
-.footer_logo {
-  width: ;
+.footer_container {
+  gap: 5px;
+}
+
+.footer_information {
+  width: 35%;
+  margin-right: 190px;
+}
+
+.footer_information p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 900;
+  margin: 15px 0px 20px 0px;
+}
+
+.num_store {
+  gap: 5px;
+  align-items: center;
+  font-weight: 900;
+  margin: 20px 0px 10px 0px;
+}
+
+.cnt_social {
+  font-size: 20px;
+  margin: 0px 17px 0px 0px;
+}
+
+.location_icon {
+  font-size: 10px;
+}
+
+ul li {
+  font-size: 14px;
+  margin: 5px 0px 10px 0px;
+  list-style-type: none;
+  position: relative;
+}
+
+.footer_about li:hover {
+  text-decoration: underline;
+}
+
+.footer_about ul li a {
+  padding-left: 10px;
+}
+
+.footer_about ul li::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 3.5px solid transparent;
+  border-left: 4px solid #e3b387 ;
+  border-bottom: 3.5px solid transparent;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.footer_policy ul li::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 3.5px solid transparent;
+  border-left: 4px solid #e3b387 ;
+  border-bottom: 3.5px solid transparent;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.footer_policy li:hover {
+  text-decoration: underline;
+}
+
+.footer_policy ul li a {
+  padding-left: 10px;
+}
+
+.footer_logo img {
+  width: 158.07px;
+  height: 44px;
+  margin: 0px 0px 24px;
+}
+
+.input_form {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.size_envelope {
+  font-size: 25px;
+}
+
+.input_mail {
+  font-size: 14px;
+  border: none;
+  background-color: #f8f8f8;
+  width: 60%;
+  outline: none;
+}
+
+.register_btn {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 20px;
+  color: #fff;
+  background-color: black;
+  border: none;
+}
+
+.footer_about {
+  width: 18.6%;
+  padding: 0px 15px;
+}
+
+.footer_policy {
+  width: 27%;
+  padding: 0px 15px;
+}
+
+.footer_location_store {
+  width: 27%;
+  padding: 0px 15px;
+}
+
+.see_all_store {
+  margin: 30px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.all_store {
+  padding-right: 10px;
+}
+
+.all_store::after {
+  display: inline-block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-left: 7px solid #e3b387 ;
+  border-bottom: 5px solid transparent;
+  border-radius: 5px;
+  margin-left: 10px;
 }
