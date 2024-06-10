@@ -283,6 +283,7 @@ a {
 .fashion_container {
   gap: 30px;
   padding: 50px 50px;
+  justify-content: center;
 }
 
 .fashion {
